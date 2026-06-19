@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main className="flex-1">{children}</main>
             <footer className="border-t border-slate-200 bg-white py-6">
               <div className="mx-auto max-w-6xl px-4 text-center text-xs text-slate-400">
-                Demo project · Mock data · Built for the iBox Lab take-home exercise
+                &copy; {new Date().getFullYear()} Md Shahin Sheikh. mdshahinsheikh763@gmail.com
               </div>
             </footer>
           </div>
